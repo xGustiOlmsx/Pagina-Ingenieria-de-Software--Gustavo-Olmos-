@@ -23,8 +23,7 @@ html {
 }
 
 body {
-    margin-top: 10rem;
-    margin-bottom: 10rem;
+    padding-top: 5rem;
     background: var(--main-blue);
     text-align: center;
     font-family: "Poppins", sans-serif;
@@ -34,12 +33,18 @@ body {
     color: var(--main-white);
 }
 
+section {
+    margin-top: auto;
+    padding-top: 10rem;
+    color: var(--main-white);
+    background-color: #303841;
+}
+
 form {
     margin: auto;
     margin-bottom: 30rem;
     text-align: center;
     border: #303841;
-    background: var(--main-blue);
 }
 
 header {
@@ -63,7 +68,6 @@ footer {
     display: flex;
     justify-content: space-evenly;
     padding: 2rem;
-    background: var(--main-gray);
     border-top: 4px solid var(--main-red);
 }
 
@@ -73,4 +77,5 @@ footer {
     padding: 2rem;
     background: var(--main-red);
     border-radius: 20%;
+    color: var(--main-white);
 }
