@@ -13,14 +13,18 @@
 <body>
     <header>
         <h1>Trabajo: Prueba de Controles</h1>
+        <br>
     </header>
 <section>
+    <h3 id="h3ayuda"></h3>
     <form action="../index.html" method="get">
         <label for="txtNombre">Nombre(textbox)</label>
-        <input type="text" name="txtNombre" id="txtNombre" placeholder="escriba acá">
+        <input type="text" name="txtNombre" id="txtNombre" 
+        placeholder="escriba acá" onfocus="cargarAyuda()">
         <br>
         <label for="txtApellido">Apellido(textbox)</label>
-        <input type="text" name="txtApellido" id="txtApellido" placeholder="escriba acá">
+        <input type="text" name="txtApellido" id="txtApellido" 
+        placeholder="escriba acá" onfocus="cargarAyuda2()">
         <br>
         <label for="chkCasado">Casado(checkBox)</label>
         <input type="checkbox" name="chkCasado" id="chkCasado">
@@ -86,5 +90,8 @@
             </a>
         </p>
     </footer>
+
+    <script type="text/javascript" src="js/main.js"></script>
+
 </body>
 </html>
