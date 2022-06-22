@@ -50,12 +50,6 @@ a {
     color: var(--main-white);
 }
 
-table {
-    margin: auto;
-    text-align: center;
-    border: #303841;
-    background: var(--main-blue);
-}
 
 footer {
     font-weight: 300;
