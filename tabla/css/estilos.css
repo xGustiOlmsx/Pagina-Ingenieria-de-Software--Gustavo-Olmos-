@@ -50,6 +50,12 @@ a {
     color: var(--main-white);
 }
 
+table {
+    margin: auto;
+    text-align: center;
+    border: #303841;
+    background: var(--main-blue);
+}
 
 footer {
     font-weight: 300;
@@ -58,4 +64,3 @@ footer {
     padding: 2rem;
     background: var(--main-gray);
     border-top: 4px solid var(--main-red);
-}
