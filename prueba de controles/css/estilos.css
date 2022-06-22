@@ -71,11 +71,15 @@ footer {
     border-top: 4px solid var(--main-red);
 }
 
-.button {
+.button, .button2 {
     font-weight: 300;
     justify-content: space-evenly;
     padding: 2rem;
     background: var(--main-red);
-    border-radius: 20%;
+    border-radius: 10%;
     color: var(--main-white);
+}
+
+.button2 {
+    border-radius: 5%;
 }
