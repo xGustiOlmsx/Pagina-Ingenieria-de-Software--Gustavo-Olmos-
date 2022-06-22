@@ -1,3 +1,8 @@
+function avisoImportante() 
+{
+    alert("IMPORTANTE: esta es una maqueta simple, no esperes mucho ya que su única función es la de probar JavaScript en ella, gracias");
+}
+
 function modoClaro() 
 {
     var convertidor=document.getElementById("main");
