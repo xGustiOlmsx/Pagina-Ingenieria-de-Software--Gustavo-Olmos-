@@ -36,7 +36,7 @@ body {
 
 form {
     margin: auto;
-    margin-bottom: 50rem;
+    margin-bottom: 30rem;
     text-align: center;
     border: #303841;
     background: var(--main-blue);
@@ -65,4 +65,12 @@ footer {
     padding: 2rem;
     background: var(--main-gray);
     border-top: 4px solid var(--main-red);
+}
+
+.button {
+    font-weight: 300;
+    justify-content: space-evenly;
+    padding: 2rem;
+    background: var(--main-red);
+    border-radius: 20%;
 }
