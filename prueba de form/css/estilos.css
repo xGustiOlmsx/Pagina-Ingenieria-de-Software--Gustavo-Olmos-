@@ -46,6 +46,21 @@ header {
     z-index: 10;
 }
 
+form {
+    padding-top: 10rem;
+    padding-bottom: 30rem;
+}
+
+#q {
+    width: 50rem;
+    height: 3rem;
+    border-radius: 50px;
+}
+
+label {
+    font-size: 70px;
+}
+
 a {
     text-decoration: none;
     color: var(--main-white);
