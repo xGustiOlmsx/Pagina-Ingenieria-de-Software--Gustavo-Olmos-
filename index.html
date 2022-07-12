@@ -16,6 +16,7 @@
         <ul class="nav-list">
             <li><a href="#welcome-section">Yo pa'</a></li>
             <li><a href="#projects">Tareas de la materia</a></li>
+            <li><a href="#projects2">Trabajos Propios</a></li>
             <li><a href="#contact">Siganme acá dale</a></li>
         </ul>
     </nav>
@@ -33,7 +34,7 @@
         <h2 class="projects-section-header">Trabajos que hacemos en clase</h2>
 
         <div class="projects-grid">
-            <a href="#"
+            <a href="#" onclick="avisoPáginaEnProceso()"
                 class="project project-tile">
                 <img class="project-image"
                 src=https://www.espaidefeina.cat/wp-content/uploads/2021/06/curriculum-vitae-occ.png"
@@ -82,6 +83,32 @@
     </section>
     <!-- Fin Seccion Tareas-->
 
+    <!-- Seccion Proyectos Propios -->
+    <section id="projects2" class="projects-section">
+        <h2 class="projects-section-header">Trabajos y proyectos propios</h2>
+        <div class="projects-grid">
+            <a href="https://xgustiolmsx.github.io/Instagram/"
+                class="project project-tile">
+                <img class="project-image"
+                src="media/InstagramLogo.jpg"
+                alt="project"/>
+                <p class="project-title">
+                    <span class="code">&lt;</span>Página principal de Instagram<span class="code">&#47;&gt;</span>
+                </p>
+            </a>
+            <a href="#" onclick="avisoPáginaEnProceso()"
+                class="project project-tile">
+                <img class="project-image"
+                src="media/Facebook.jpg"
+                alt="project"/>
+                <p class="project-title">
+                    <span class="code">&lt;</span>Página principal de Facebook<span class="code">&#47;&gt;</span>
+                </p>
+            </a>
+        </div>
+    </section>
+    <!-- Fin Seccion Proyectos Propios -->
+
     <!-- Seccion de Contactos-->
     <section id="contact" class="contact-section">
         <div class="contact-section-header">
@@ -117,5 +144,8 @@
         </p>
     </footer>
     <!-- Fin Footer-->
+
+    <!-- Enlace JavaScript -->
+    <script type="text/javascript" src="js/main.js"></script>
 </body>
 </html>
