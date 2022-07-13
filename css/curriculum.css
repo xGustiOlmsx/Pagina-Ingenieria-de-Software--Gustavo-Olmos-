@@ -1,0 +1,60 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    box-sizing: border-box;
+    font-size: 62.5%;
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: "Poppins", sans-serif;
+    font-size: 10px; 
+    font-weight: 300;
+    line-height: 1.4;
+    display: flex;
+    background-color: #dadada;
+}
+
+.professional-details {
+    margin-top: 50px;
+    margin-left: 100px;
+    margin-right: 50px; 
+    background-color: white;
+}  
+
+.professional-details .title {
+    text-align: center;
+    padding: 10px;
+}
+
+.professional-details .data {
+    columns: 2;
+    font-size: 12px;
+    padding: 10px; 
+}
+
+
+
+.about-me {
+    background-color: white;
+    margin-top: 50px;
+    margin-right: auto;
+}
+
+.about-me .title {
+    padding: 10px;
+}
+
+.about-me .data {
+    font-size: 12px;
+    padding: 10px;
+    columns: 4;
+}
+
+.about-me .data-estudio {
+    font-size: 13px;
+    padding: 10px;
+}
