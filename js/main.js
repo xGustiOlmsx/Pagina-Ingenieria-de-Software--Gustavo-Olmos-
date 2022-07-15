@@ -1,3 +1,3 @@
 function avisoPáginaEnProceso() {
-    alert("Esta página está en proceso, mientras tanto porfa visita las otras, gracias!!!");
+    swal("ATENCION:","Esta página todavía está en proceso, por favor seguí mirando las otras, gracias!!")
 }
