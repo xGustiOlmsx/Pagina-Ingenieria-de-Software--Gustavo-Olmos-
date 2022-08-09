@@ -44,7 +44,14 @@ html {
     }
 }
 
-
+video {
+    position: fixed;
+    width: 100%;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    z-index: -1;
+}
 
 body {
     font-family: "Poppins", sans-serif;
@@ -85,15 +92,22 @@ img {
 
 /* nav */
 
+nav {
+    transition: 0.7s;
+}
+
+.abajo {
+    background-color: var(--main-red);
+    width: 100%;
+}
+
 .nav {
     display: flex;
-    justify-content: flex-end;
+    justify-content: flex-start;
     position: fixed;
     top: 0;
     left: 0;
     width: 100%;
-    background: var(--main-red);
-    box-shadow: 0 2px 0 rgba(0, 0, 0, 0.4);
     z-index: 10;
 }
 
@@ -120,6 +134,7 @@ img {
 
 .nav-list a:hover {
     background: var(--main-blue);
+    transition: 0.7s;
 }
 
 
@@ -130,11 +145,9 @@ img {
     align-items: center;
     width: 100%;
     height: 100vh;
-    background-color: #000;
-    background-image: linear-gradient(62deg, #3a3d40 0%, #181719 100%);
 }
 
-.welcome-section > p {
+.scroll-welcome p {
     font-size: 3rem;
     font-weight: 200;
     font-style: italic;
