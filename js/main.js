@@ -64,23 +64,3 @@ window.addEventListener("scroll", function(){
     var nav = document.getElementById("navbar");
     nav.classList.toggle("abajo",window.scrollY>0);
 })
-
-barba.init({
-    transitions: [{
-        name: 'cambio',
-        leave: function(data){
-            var donde = this.async();
-            document.body.classList.add('loading');
-            setTimeout(function(){
-                done();
-            },900);
-        },
-        enter:
-        function(data){
-            var donde = this.async();
-            document.body.classList.add('loading');
-            setTimeout(function(){
-                done();
-            },900);
-    }}]
-});
